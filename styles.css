@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background: rgb(223, 151, 209);
+    background: rgb(237, 180, 226);
     height: 100px;
     width: 100%;
     text-align: center;
@@ -33,12 +33,16 @@ nav {
 
 nav  ul  li {
     float: left;
+    margin-top: 15px;
     list-style: none;
-    line-height: 30px;
-
-
+    margin-left: 20px;
 }
 
+a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(12, 119, 83);
+}
 .clearfix {
     clear:both;
 }
