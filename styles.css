@@ -96,4 +96,26 @@ footer {
     line-height: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+    #container {
+        width: 550px;
+    }
+    aside {
+        width: 530px;
+        height: 750px;
+float: none;
+    }
+    #content {
+        width: 470px;
+    } 
+    footer {
+height: 50px;
+    }
+    .mail{
+        margin-top: 0px;
+    
+     }
+    
+}
+
 
